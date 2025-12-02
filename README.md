@@ -36,14 +36,7 @@ JavaScript calls the recipe API using fetch().
 Results are shown in recipe cards with image + name.
 Clicking “View Recipe” opens full instructions + ingredients.
 
-📦 Installation & Usage
-
-Clone the repository
-
-git clone https://github.com/your-username/recipe-finder-app.git
-
-
-Open the project folder
+📦 Open the project folder:
 
 cd recipe-finder-app
 
@@ -54,46 +47,14 @@ Double-click the file
 
 Or run using Live Server extension (VS Code recommended)
 
-🔌 API Used
-TheMealDB API
 
-Example request:
+🎨 UI Highlights:
 
-https://www.themealdb.com/api/json/v1/1/search.php?s=chicken
+Minimal, modern card-based layout;
+Hover effects for recipe cards;
+Mobile-friendly design;
+Clean buttons and modal view.
 
-
-You can switch to other APIs like Edamam or Spoonacular if needed.
-
-🧩 Code Snippet (Fetch Function)
-async function searchRecipe() {
-    const query = document.getElementById('search-input').value;
-    const url = `https://www.themealdb.com/api/json/v1/1/search.php?s=${query}`;
-
-    const res = await fetch(url);
-    const data = await res.json();
-    displayRecipes(data.meals);
-}
-
-🎨 UI Highlights
-
-Minimal, modern card-based layout
-
-Hover effects for recipe cards
-
-Mobile-friendly design
-
-Clean buttons and modal view
-
-🤝 Contributing
-
-Contributions are welcome!
-If you’d like to improve UI, add new features, or fix bugs:
-
-Fork the repo
-
-Create a new branch
-
-Submit a pull request
 
 ⭐ Show Your Support
 
